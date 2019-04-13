@@ -61,7 +61,7 @@
             echo $this->nome . ": Curei: " . $heroi->nome. "<br>";
             $heroi->AddVida($this->valorCura);
         }
-    }
+  /*   }
 
     $bonecoMoira = new Heroi("Moira", 100, 100, 30);
 
@@ -84,5 +84,22 @@
 
     $bonecoMercy->Ataca($bonecoTracer);
 
-    $bonecoMoira->FalaVida();
+    $bonecoMoira->FalaVida(); */
+
+   
+    }
+
+    $Tracer = new Heroi("Tracer", 100,100,100);
+    $Tracer->Apresentacao();
+
+    $Mei = new Heroi ("Mei", 50,50,50);
+    $Mei->Apresentacao();
+
+    $Mei->Ataca($Tracer);
+
+    $bonecoMercy = new Suporte("Mercy", 95, 35, 30, 50);
+
+    $bonecoMercy->Apresentacao();
+
+    $bonecoMercy->Cura($Mei);
 ?>
