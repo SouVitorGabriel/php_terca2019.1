@@ -1,0 +1,9 @@
+.row{
+    margin-bottom: 0px;
+}
+
+#desc1{
+    font-size: 20px;
+    text-align: center;
+    color: red !important;
+}

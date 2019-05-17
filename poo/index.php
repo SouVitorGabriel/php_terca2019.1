@@ -92,14 +92,14 @@
     $Tracer = new Heroi("Tracer", 100,100,100);
     $Tracer->Apresentacao();
 
-    $Mei = new Heroi ("Mei", 50,50,50);
-    $Mei->Apresentacao();
+     $Mei = new Heroi ("Mei", 50,50,50);
+    $Mei->Apresentacao(); 
 
     $Mei->Ataca($Tracer);
 
-    $bonecoMercy = new Suporte("Mercy", 95, 35, 30, 50);
+   /*  $bonecoMercy = new Suporte("Mercy", 95, 35, 30, 50);
 
     $bonecoMercy->Apresentacao();
 
-    $bonecoMercy->Cura($Mei);
+    $bonecoMercy->Cura($Mei);  */
 ?>
